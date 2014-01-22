@@ -1,5 +1,5 @@
 //
-// GoPro Three Prong Connector
+// GoPro Two Prong Connector
 //
 // By Jay Abbott 2014
 //
@@ -12,15 +12,11 @@ use <mounting_prongs.scad>
 // --------------------------------
 
 // Bottom prong
-translate([0,-20,0])
-	prong(1);
-
-// Middle prong
-translate([0,0,0])
-	prong(3);
+translate([0,-10,0])
+	prong(2);
 
 // Top prong
-translate([0,20,0])
-	prong(5);
+translate([0,10,0])
+	prong(4);
 
 

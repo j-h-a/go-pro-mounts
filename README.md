@@ -1,7 +1,7 @@
 Go Pro Mounts
 =============
 
-3D Models of mounts for the Go Pro camera, using OpenSCAD.
+3D models of mounts for GoPro cameras, using OpenSCAD.
 
 Files
 =====
