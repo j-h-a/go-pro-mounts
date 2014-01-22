@@ -27,9 +27,9 @@ shaftDiameterTop = 10.8;
 
 totalLength = handleLength + shaftEndLength + shaftLength + shaftEndLength;
 
-boltDepth = 18 + totalLength - 45;
+boltDepth = 18 + totalLength - 50;
 boltDiameter = 10;
-holeDiameter = 5.3;
+holeDiameter = 5.4;
 
 // Modules
 // --------------------------------
@@ -107,22 +107,27 @@ module hole()
 		cylinder(h = totalLength + 0.2, r = holeDiameter / 2);
 }
 
+module thumbscrew()
+{
+	translate([0, 0, totalLength])
+	rotate([0, 180, 0])
+	{
+		difference()
+		{
+			union()
+			{
+				handle();
+				shaft();
+			}
 
+			rotate([0, 0, 360/24])
+				boltHole();
+			hole();
+		}
+	}
+}
 
 // The Model
 // --------------------------------
 
-difference()
-{
-	union()
-	{
-		handle();
-		shaft();
-	}
-
-	rotate([0, 0, 360/24])
-		boltHole();
-	hole();
-}
-
-
+thumbscrew();
