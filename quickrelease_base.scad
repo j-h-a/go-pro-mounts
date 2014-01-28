@@ -18,12 +18,12 @@ baseThickness = 3;
 baseOuterCurveRadius = 58;
 minkowskiRadius = 7;
 
-clipInteriorWidth = 28.4;
-clipInteriorHeight = 4.5;
+clipInteriorWidth = 28.6;
+clipInteriorHeight = 4.9;
 clipLength = 25.6;
 clipWallThicknessMin = 3.3;
 clipWallThicknessMax = 3.95;
-clipRoofTopHeight = 7.0;
+clipRoofTopHeight = 7.3;
 clipRoofOverhang = 3.0;
 clipHookBacklash = 1.4;
 clipEaseInDistance = 3.8;
