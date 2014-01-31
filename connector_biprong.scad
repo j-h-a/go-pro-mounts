@@ -4,7 +4,7 @@
 // By Jay Abbott 2014
 //
 
-use <mounting_prongs.scad>
+use <lib/mounting_prongs.scad>
 
 
 

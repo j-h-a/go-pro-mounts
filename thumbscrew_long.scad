@@ -4,7 +4,7 @@
 // By Jay Abbott 2014
 //
 
-use <simple_objects.scad>;
+use <lib/simple_objects.scad>;
 
 
 

@@ -4,8 +4,8 @@
 // By Jay Abbott 2014
 //
 
-use <simple_objects.scad>;
-use <quickrelease_base.scad>;
+use <lib/simple_objects.scad>;
+use <lib/quickrelease_base.scad>;
 
 
 
