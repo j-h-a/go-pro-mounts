@@ -1,5 +1,5 @@
 GoPro Mounts
-===========
+============
 
 Various mounts for GoPro cameras. These mounts are designed to be 3D-printed and assembled.
 
@@ -23,7 +23,7 @@ Click the images to jump to that model, hover to see the title.
 <a name="ThumbScrewLong"/>
 
 Thumb-screw (long)
-===============
+==================
 
 - **File**: [`thumbscrew_long.scad`](https://github.com/j-h-a/go-pro-mounts/blob/master/thumbscrew_long.scad)
 - **Description**: The long thumbscrew, for use directly under the camera housing or whenever you want extra reach.
@@ -47,7 +47,7 @@ Thumb-screw (long)
 <a name="TriprongConnector"/>
 
 Tri-pronged Connector
-=================
+=====================
 
 - **File**: [`connector_triprong.scad`](https://github.com/j-h-a/go-pro-mounts/blob/master/connector_triprong.scad)
 - **Description**: Parts for a 3-pronged connector section.
@@ -83,7 +83,7 @@ You can also stick it directly onto wherever you want to mount your camera, the 
 <a name="BiprongConnector"/>
 
 Bi-pronged Connector
-=================
+====================
 
 - **File**: [`connector_biprong.scad`](https://github.com/j-h-a/go-pro-mounts/blob/master/connector_biprong.scad)
 - **Description**: Parts for a 2-pronged connector section.
@@ -99,18 +99,26 @@ Construction is very similar to the tri-pronged connector, but much simpler. So 
 <a name="QRClip"/>
 
 Quick-release Clip
-==============
+==================
 
-Half of the quick-release clip (print two of them).
+- **File**: [`quickrelease_clip.scad`](https://github.com/j-h-a/go-pro-mounts/blob/master/quickrelease_clip.scad)
+- **Description**: Half of the quick-release clip (print two of them).
+
+![Quick-release Clip](http://j-h-a.github.io/go-pro-mounts/quickrelease_clip.png)
+
+
 
 
 
 <a name="PoleGrip"/>
 
 Pole Grip
-=======
+=========
 
-A grip to attach the quick-release clip to a pole.
+- **File**: [`quickrelease_pole_grip.scad`](https://github.com/j-h-a/go-pro-mounts/blob/master/quickrelease_pole_grip.scad)
+- **Description**: A grip to attach the quick-release clip to a pole.
+- **Also needs**: Quick-release Clip. A thin, flat piece of rubber. Plastic wire-ties.
 
+![Pole Grip](http://j-h-a.github.io/go-pro-mounts/quickrelease_pole_grip.png)
 ![Pole Grip](http://j-h-a.github.io/go-pro-mounts/quickrelease_pole_grip_00.jpg)
 
