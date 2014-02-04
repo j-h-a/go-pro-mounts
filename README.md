@@ -13,6 +13,7 @@ This repository contains the following models:
 [<img width="64" src="http://j-h-a.github.io/go-pro-mounts/thumbscrew_long.png"/>](#ThumbScrewLong "Thumb-screw (long)")
 [<img width="64" src="http://j-h-a.github.io/go-pro-mounts/connector_triprong.png"/>](#TriprongConnector "Tri-pronged Connector")
 [<img width="64" src="http://j-h-a.github.io/go-pro-mounts/connector_biprong.png"/>](#BiprongConnector "Bi-pronged Connector")
+[<img width="64" src="http://j-h-a.github.io/go-pro-mounts/connector_flat.png"/>](#FlatConnector "Flat Connector")
 [<img width="64" src="http://j-h-a.github.io/go-pro-mounts/quickrelease_clip.png"/>](#QRClip "Quick-release Clip")
 [<img width="64" src="http://j-h-a.github.io/go-pro-mounts/quickrelease_pole_grip.png"/>](#PoleGrip "Pole Grip")
 
@@ -73,7 +74,7 @@ Tri-pronged Connector
 8. Immediately put a small clamp on to squeeze them together while the glue dries.
 9. Glue on the nut (if not done already), being careful not to allow excess glue to block the hole or glue the thumb-screw in place.
 
-This connector section can be super-glued back-to-back with a bi-pronged connector at any angle you like (not restricted to 90 degrees rotation like the official ones), or even glued back-to-side to make a dog-leg connector.
+This connector section can be super-glued back-to-back with a bi-pronged connector at any rotation you like (not restricted to 90 degrees rotation like the official ones).
 You can also stick it directly onto wherever you want to mount your camera, the notches in the sides are there to get a better contact when sticking it to things with mouldable materials such as [Sugru][].
 
 ![Tri-pronged connector clamped](http://j-h-a.github.io/go-pro-mounts/connector_triprong_00_clamped.jpg)
@@ -92,7 +93,32 @@ Bi-pronged Connector
 
 ### Build Instructions
 
-Construction is very similar to the tri-pronged connector, but much simpler. So adapt the techniques described in those build instructions to build the bi-pronged connector section.
+Construction is very similar to the tri-pronged connector, but much simpler.
+
+1. Read the build instructions for the [Tri-pronged Connector](#TriprongConnector) above.
+2. Adapt those techniques to build the bi-pronged connector section.
+
+This connector section can be super-glued back-to-back with a tri-pronged connector at any rotation you like (not restricted to 90 degrees rotation like the official ones).
+
+
+
+<a name="FlatConnector"/>
+
+Flat Connector
+====================
+
+- **File**: [`connector_flat.scad`](https://github.com/j-h-a/go-pro-mounts/blob/master/connector_flat.scad)
+- **Description**: Parts for a flat (no 90-degree rotation) connector.
+
+![Flat Connector](http://j-h-a.github.io/go-pro-mounts/connector_flat.png)
+
+### Build Instructions
+
+These parts can be assembled as a flat straight connector, or a flat corner connector.
+
+1. For the corner connector, keep the adjustable `plateLength` value as 23mm, for the straight connector it can be adjusted to the desired length.
+2. Stack the pieces as desired and glue together, using thumb-screws to ensure alignment of the holes and correct spacing of the layers.
+ - See the build instructions for the [Tri-pronged Connector](#TriprongConnector) above for more details.
 
 
 
