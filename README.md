@@ -74,7 +74,7 @@ Tri-pronged Connector
 9. Glue on the nut (if not done already), being careful not to allow excess glue to block the hole or glue the thumb-screw in place.
 
 This connector section can be super-glued back-to-back with a bi-pronged connector at any angle you like (not restricted to 90 degrees rotation like the official ones), or even glued back-to-side to make a dog-leg connector.
-You can also stick it directly onto wherever you want to mount your camera, the notches in the sides are there to get a better contact when sticking it to things with mouldable materials such as [Sugru](http://www.sugru.com).
+You can also stick it directly onto wherever you want to mount your camera, the notches in the sides are there to get a better contact when sticking it to things with mouldable materials such as [Sugru][].
 
 ![Tri-pronged connector clamped](http://j-h-a.github.io/go-pro-mounts/connector_triprong_00_clamped.jpg)
 
@@ -106,7 +106,15 @@ Quick-release Clip
 
 ![Quick-release Clip](http://j-h-a.github.io/go-pro-mounts/quickrelease_clip.png)
 
+### Build Instructions
 
+1. Print out two copies of the model.
+2. Place them together and use an official quick-release clip that comes with the GoPro to test the fit.
+ - You may need to sand the centre ridge so it is a bit more square and the base area so that the clip slides in with a smooth but snug fit.
+3. The two clip-halves can be super-glued together and stuck directly onto whatever you like with a double-sided sticky-pad or super-glue.
+ - Stick it down with the quick-release clip in-place to ensure exact alignment of the halves.
+ - Be careful not to glue the quick-release clip into the holder.
+ - It should bot be necessary to glue the halves together directly, but if you want extra strength, inject glue to the crack after releasing the clip.
 
 
 
@@ -119,6 +127,38 @@ Pole Grip
 - **Description**: A grip to attach the quick-release clip to a pole.
 - **Also needs**: Quick-release Clip. A thin, flat piece of rubber. Plastic wire-ties.
 
-![Pole Grip](http://j-h-a.github.io/go-pro-mounts/quickrelease_pole_grip.png)
-![Pole Grip](http://j-h-a.github.io/go-pro-mounts/quickrelease_pole_grip_00.jpg)
+![Pole Grip Model](http://j-h-a.github.io/go-pro-mounts/quickrelease_pole_grip.png)
+![Pole Grip Print](http://j-h-a.github.io/go-pro-mounts/quickrelease_pole_grip_00.jpg)
 
+### Build Instructions
+
+1. Print out a quick-release clip and a pole grip.
+ - You can adjust the `poleDiameter` and `poleClearance` values in the `.scad` file if required.
+2. Glue them together as described in the quick-release clip build instructions.
+
+![Pole Grip Parts](http://j-h-a.github.io/go-pro-mounts/quickrelease_pole_grip_01_parts.jpg)
+![Pole Grip Glueing](http://j-h-a.github.io/go-pro-mounts/quickrelease_pole_grip_02_glue.jpg)
+![Pole Grip Complete](http://j-h-a.github.io/go-pro-mounts/quickrelease_pole_grip_03_complete.jpg)
+
+### Attaching to a Pole (Permanent)
+
+1. Adjust `poleDiameter` and `poleClearance` to get a tight fit.
+2. Build the pole-grip as per the build instructions above.
+3. Clip onto the pole using [Sugru][] or super-glue to fix it permanently in place.
+
+### Attaching to a Pole (Temporary)
+
+1. Cut a rectangle of rubber from an old bicycle inner-tube, 50mm long and wide enough to wrap around the pole with a 10mm overlap.
+2. Adjust `poleDiameter` to the diameter of your pole and `poleClearance` to the thickness of your rubber.
+ - You can make it a bit smaller to get a nice tight fit.
+3. Build the pole-grip as per the build instructions above.
+4. Feed two plastic wire-ties through the grooves in the base of the pole-grip.
+5. Place the rubber centrally in the grip and clip onto the pole.
+6. Overlap the rubber and connect the wire-ties around it, pulling tight.
+
+![Pole Grip Temporary Attachment](http://j-h-a.github.io/go-pro-mounts/quickrelease_pole_grip_04_pole.jpg)
+![Pole Grip With Camera](http://j-h-a.github.io/go-pro-mounts/quickrelease_pole_grip_05_camera.jpg)
+
+
+
+[Sugru]: http://www.sugru.com
